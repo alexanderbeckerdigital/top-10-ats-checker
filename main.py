@@ -2,6 +2,7 @@ from flask import Flask, request, render_template_string
 from scraper import scrape_jobs_from_urls
 from config import JOB_URLS, KEYWORDS
 from collections import defaultdict
+import os
 
 app = Flask(__name__)
 
@@ -69,4 +70,5 @@ def check_jobs():
     )
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port, debug=False)
