@@ -1,6 +1,6 @@
 # 🕵️‍♂️ Top 10 ATS Checker
 
-Ein kleines, praxisorientiertes Python-Tool, das regelmäßig ausgewählte Jobseiten auf neue Einträge mit bestimmten Keywords wie "DevOps", "SRE", etc. scannt – und dir nur dann eine E-Mail schickt, wenn neue relevante Jobs auftauchen.
+Ein kleines, praxisorientiertes Python-Tool, das regelmäßig ausgewählte Jobseiten auf neue Einträge mit bestimmten Keywords wie "DevOps", "SRE", etc. scannt, zukünftig dir nur dann eine E-Mail schickt, wenn neue relevante Jobs auftauchen.
 
 Dieses Projekt soll langfristig auf Google Cloud Run betrieben und später auf Kubernetes migriert werden. Der Fokus liegt auf operativer Nützlichkeit für tägliche Nutzung.
 
