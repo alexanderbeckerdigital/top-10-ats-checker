@@ -25,3 +25,4 @@ Dieses Projekt soll langfristig auf Google Cloud Run betrieben und später auf K
 git clone https://github.com/alexanderbeckerdigital/top-10-ats-checker.git
 cd top-10-ats-checker
 
+# Trigger redeploy
